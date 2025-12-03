@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+header, footer {
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+/* General page styling */
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid #f7f7f5;
+}
+
+/* Logo styling, this was added for you by ALX */
+.logo {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+/* Article styling */
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 1px solid #dddddd;
+}
+
+/* Aside styling */
+aside {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #fffeff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+}.logo {
+    font-size: 30px;
+    padding-right: 10px;
+}
+body {
+    background-color: #75d0e6;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #060606;
+    font-weight: bold;
+}
+
+article {
+    padding: 20px;
+    background-color: #fbfbfb;
+}
+
+aside {
+    padding: 20px;
+    background-color: #e37805;
+}
